@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Je opdrachten</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="./task.png"/>
+  </head>
+
+  <body>
+      <div id="welkom">Loop door Google Maps, zoom in en vind de antwoorden!</div>
+      
+      <div class="big_line" id="line1"></div>
+      <div class="input_class">
+        <input class="tekstinput" id="opdracht_nummer" type="text" placeholder="Nummer van de opdracht...">
+        <input type="button" value="Ga" onclick="get_number()">
+      </div>
+      <div id="opdracht_uitleg">Hier komt de uitleg van de opdracht te staan.</div>
+      
+      <div class="big_line" id="line2"></div>
+      <div class="input_class">
+        <input class="tekstinput" id="eigen_antwoord" type="text" placeholder="Vul hier je antwoord in ter controle...">
+        <input type="button" value="Ga" onclick="get_answer()">
+      </div>
+      <div id="controle">Het ingevulde antwoord is...</div>
+
+      <!-- <div class="big_line" id="line3"></div> -->
+
+      <script src="script.js"></script>
+  </body>
+</html>

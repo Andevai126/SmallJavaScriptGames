@@ -1,0 +1,73 @@
+body{
+  background-color: rgb(13, 13, 53);
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#welkom{
+  padding: 5px;
+  text-align: center;
+}
+
+.input_class{
+  margin-left: 5%;
+  width: 70%;
+  margin-top: 2%;
+}
+
+.big_line{
+  width: 100%;
+  border-radius: 5px;
+  border-bottom: 2px solid #CFEFFF;
+  box-shadow: 0px -10px 8px -7px #00AAFF inset, 0px 0px 8px 3px #00AAFF,0px 0px 0px 1px #00AAFF,0px -1px 0px 0px #00AAFF inset;
+  margin-top: 100px;
+}
+
+#opdracht_uitleg, #controle{
+  width: 90%;
+  height: fit-content;
+  margin-left: 5%;
+  margin-top: 2%;
+  border-left: 2px red solid;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+input[type=text]{
+  margin-top: 0;
+  float: left;
+  background: transparent;
+  border: 2px red solid;
+  border-radius: 4px;
+  color: white;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 250px;
+}
+input[type=text]:focus{
+  outline: 0;
+  border: 2px white solid;
+}
+
+input[type=button]{
+  background: transparent;
+  border: 2px red solid;
+  border-radius: 4px;
+  color: white;
+  height: 30px;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+input[type=button]:focus{
+  outline: 0;
+}
+input[type=button]:active{
+  background-color: rgb(151, 151, 151);
+}
+
+a{
+  color: aqua;
+}
